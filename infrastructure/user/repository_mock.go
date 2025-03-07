@@ -1,7 +1,7 @@
-package user
+package infrastructure
 
 import (
-	"os/user"
+	domain "poc-injecao-dependencia/domain"
 
 	"github.com/stretchr/testify/mock"
 )
@@ -10,7 +10,7 @@ type MockRepository struct {
 	mock.Mock
 }
 
-func (m *MockRepository) FindByID(id int) (*user.User, error) {
+func (m *MockRepository) FindByID(id int) (*domain.User, error) {
 	args := m.Called(id)
-	return args.Get(0).(*user.User), args.Error(1)
+	return args.Get(0).(*domain.User), args.Error(1)
 }
