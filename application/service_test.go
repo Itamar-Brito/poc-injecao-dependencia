@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	domain "poc-injecao-dependencia/domain"
-	infrastructure_user "poc-injecao-dependencia/infrastructure/user"
+	infrastructure_user "poc-injecao-dependencia/infrastructure"
 
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/dig"

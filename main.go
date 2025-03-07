@@ -7,7 +7,7 @@ import (
 
 	"poc-injecao-dependencia/application"
 	domain "poc-injecao-dependencia/domain"
-	infrastructure "poc-injecao-dependencia/infrastructure/user"
+	infrastructure "poc-injecao-dependencia/infrastructure"
 
 	"github.com/gin-gonic/gin"
 	"go.uber.org/dig"
