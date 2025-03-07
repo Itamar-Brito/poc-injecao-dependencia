@@ -3,8 +3,8 @@ package application
 import (
 	"testing"
 
-	domain "poc-injecao-dependencia/domain"
-	infrastructure_user "poc-injecao-dependencia/infrastructure"
+	domain "poc-injecao-dependencia/internal/user/domain"
+	infrastructure_user "poc-injecao-dependencia/internal/user/infrastructure"
 
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/dig"

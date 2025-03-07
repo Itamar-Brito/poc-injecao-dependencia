@@ -2,7 +2,7 @@ package infrastructure
 
 import (
 	"errors"
-	domain "poc-injecao-dependencia/domain"
+	domain "poc-injecao-dependencia/internal/user/domain"
 )
 
 type RealRepository struct {

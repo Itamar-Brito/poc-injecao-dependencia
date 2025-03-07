@@ -1,7 +1,7 @@
 package infrastructure
 
 import (
-	domain "poc-injecao-dependencia/domain"
+	domain "poc-injecao-dependencia/internal/user/domain"
 
 	"github.com/stretchr/testify/mock"
 )

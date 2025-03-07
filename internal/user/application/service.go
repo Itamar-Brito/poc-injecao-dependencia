@@ -1,6 +1,6 @@
 package application
 
-import "poc-injecao-dependencia/domain"
+import "poc-injecao-dependencia/internal/user/domain"
 
 type Service struct {
 	Repo domain.Repository

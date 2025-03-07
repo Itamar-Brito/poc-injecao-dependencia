@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"poc-injecao-dependencia/application"
-	domain "poc-injecao-dependencia/domain"
-	infrastructure "poc-injecao-dependencia/infrastructure"
+	"poc-injecao-dependencia/internal/user/application"
+	domain "poc-injecao-dependencia/internal/user/domain"
+	infrastructure "poc-injecao-dependencia/internal/user/infrastructure"
 
 	"github.com/gin-gonic/gin"
 	"go.uber.org/dig"
